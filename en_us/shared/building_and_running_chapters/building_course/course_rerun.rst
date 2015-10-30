@@ -75,7 +75,7 @@ Using Re-Run to Create a Course
 
 .. only:: Partners
 
-   Only edX Partner Managers have the permissions needed to re-run a course.
+   Only edX staff members have the permissions needed to re-run a course.
    To re-run a course that is hosted on the `edx.org`_ or `edge.edx.org`_
    sites, contact your edX Partner Manager. After your Partner Manager creates
    the new course using the re-run feature, you can complete the steps to
@@ -185,10 +185,10 @@ course for release.
 
 * Add initial wiki articles.
 
-You can use the :ref:`course checklists<Use the Course Checklist>` to work
-through the course and verify that it is ready for release. You can also refer
-to the :ref:`Launch` topic for tools and ideas that help you prepare the
-course for launch.
+You can refer to the :ref:`Launch` topic for tools and ideas that help you prepare the course for launch.
+
+.. ^^ abbreviated version of the following original paragraph. Commented out per M. Rudnick as the course checklist is sending people to info that is not just out of date, it's bad. - Alison 30 Oct 15
+.. You can use the :ref:`course checklists<Use the Course Checklist>` to work through the course and verify that it is ready for release. You can also refer to the :ref:`Launch` topic for tools and ideas that help you prepare the course for launch.
 
 .. note::
   Changes you make in the new course are not propagated to the original course.
