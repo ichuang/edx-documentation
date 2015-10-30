@@ -27,12 +27,14 @@ Overview
 
 Office Mix is an extension to PowerPoint. With Office Mix, you can create
 lessons by integrating narration, screen recordings, quizzes, polls, web site
-links, and more into your PowerPoint presentations. You use the Office Mix tool
-in Studio to add mixes to your course.
+links, and more into your PowerPoint presentations. The `Office Mix gallery`_
+provides examples and links to more information.
 
-.. note:: Mixes are not assessments that can be graded. At this
- time, you should not add Office Mix components to the graded
- subsections of your course.
+To add mixes to your course, you use the Office Mix tool in Studio.
+
+.. note:: While you can include questions in your mixes, they are not
+  assessments that can be graded. At this time, you should not add Office Mix
+  components to the graded subsections of your course.
 
 The following example shows a mix as learners see it in the edX LMS.
 
