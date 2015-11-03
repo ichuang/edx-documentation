@@ -16,13 +16,6 @@ To make the course experience for mobile learners as rewarding as it is for
 learners using desktop computers, keep the following best practices in mind as
 you design, test, and run your course.
 
-* When learners access your course using the edX Android and iPhone apps, they
-  progress from component to component by swiping through them. It might seem
-  useful to include an HTML component in a unit for the purpose of providing a
-  demarcation point or guiding learners to the next unit, but having to swipe
-  through too many "markers" with no real course content is not a good
-  experience for mobile users.
-
 * Display names are critical for navigating through courses on smartphones. As
   you create course content, make sure you replace the default display names
   for every component with useful courseware component names.
@@ -32,6 +25,14 @@ you design, test, and run your course.
   several components have names that all start with the first five words and
   differ only after that, learners using smartphones to access your course
   might have difficulty distinguishing between components.
+
+* Do not use Flash, which is not supported on mobile platforms, to create course
+* content.
+
+
+* Only use iFrames in course content where necessary, because iFrame content
+  might not be responsive and cannot be optimized for viewing on a range of
+  devices.
 
 * Learners might be viewing your course materials on screens as large as a
   high-resolution Mac Thunderbolt display, or as small as a 5 inch smartphone
@@ -50,6 +51,13 @@ you design, test, and run your course.
   on smartphones, notify learners in your courseware that they will not be
   able to complete assignments that contain unsupported assessment types using
   the edX iPhone and Android mobile apps.
+
+* When learners access your course using the edX Android and iPhone apps, they
+  progress from component to component by swiping through them. It might seem
+  useful to include an HTML component in a unit for the purpose of providing a
+  demarcation point or guiding learners to the next unit, but having to swipe
+  through too many "markers" with no real course content is not a good
+  experience for mobile users.
 
 * If you make JavaScript or CSS changes to course components using XML, be
   aware that components might not render in the same way on a mobile device as
