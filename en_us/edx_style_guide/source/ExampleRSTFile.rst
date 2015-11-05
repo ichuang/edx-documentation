@@ -75,18 +75,23 @@ In English source files, look for comments addressed to translators from writers
 
 
 ***************************************
-Numbered and Bulleted Lists
+Ordered and Bulleted Lists
 ***************************************
 
-Use hash symbols for numbered lists.
+Use hash symbols for ordered lists.
+
 ::
 
 #. Select **Advanced Settings**.
 #. Find the **Course Advertised Start Date** policy key.
 #. Enter the value you want to display.
 
+.. note::
+ Ordered lists usually use numerals. Ordered lists inside other ordered lists
+ use letters.
 
 Use asterisks for bulleted lists.
+
 ::
 
 * Who is teaching the course?
@@ -98,12 +103,8 @@ Use asterisks for bulleted lists.
 Nested Lists or Content
 =======================
 
-.. note::
- You cannot include a numbered list inside a bulleted list. A numbered list
- inside a bulleted list will display as a nested bulleted list.
-
-To include a bulleted list inside a numbered list, indent the bulleted list
-three spaces. The bulleted list must be flush with the text in the numbered
+To include a bulleted list inside an ordered list, indent the bulleted list
+three spaces. The bulleted list must be flush with the text in the ordered
 list.
 
 ::
@@ -120,10 +121,28 @@ list.
 
   #. Select **Save Changes**.
 
+To include a numbered list inside a bulleted list, indent the numbered list
+two spaces. The numbered list must be flush with the text in the bulleted
+list.
 
-To include a numbered list inside another numbered list, indent the second
-numbered list three spaces. The second numbered list must be flush with the
-text in the first numbered list. Both lists
+::
+
+  * Review your entry to verify that the key is accurate and that it is
+    surrounded by quotation marks. If there is a list of keys, they must be comma
+    separated.
+
+    #. In this example, the key for the Annotation Problem tool is the only
+       value in the list.
+
+    #. In this example, the key for the Annotation Problem tool is added at the
+       beginning of a list of other keys.
+
+  * Select **Save Changes**.
+
+To include another ordered list inside a numbered list, indent the second
+ordered list three spaces. The second ordered list must be flush with the text
+in the numbered list. The first numbered list uses numerals, and the second
+uses letters.
 
 ::
 
@@ -141,7 +160,7 @@ text in the first numbered list. Both lists
 
 To include content such as code or an image inside a list, position the code or
 image directive flush with the text in the list. That is, indent three spaces
-for numbered lists and two spaces for bulleted lists.
+for ordered lists and two spaces for bulleted lists.
 
 ::
 
@@ -204,31 +223,33 @@ Notes and Warnings
 
 ::
 
-  .. note:: This is note text. If note text runs over a line, make sure the
-    lines wrap and are indented to the same level as the note tag. If
-    formatting is incorrect, the entire note might not render in the HTML
-    output.
+ .. note::
+    This is note text. If note text runs over a line, make sure the lines wrap
+    and are indented to the same level as the note tag. If formatting is
+    incorrect, part of the note might not render in the HTML output.
 
     Notes can have more than one paragraph. Successive paragraphs must indent
     to the same level as the rest of the note.
 
-.. note:: This is note text. If note text runs over a line, make sure the
-   lines wrap and are indented to the same level as the note tag. If
-   formatting is incorrect, the entire note might not render in the HTML
-   output.
+.. note::
+   This is note text. If note text runs over a line, make sure the lines wrap
+   and are indented to the same level as the note tag. If formatting is
+   incorrect, part of the note might not render in the HTML output.
 
-   Notes can have more than one paragraph. Successive paragraphs must indent
-   to the same level as the rest of the note.
+   Notes can have more than one paragraph. Successive paragraphs must indent to
+   the same level as the rest of the note.
 
 
 ::
 
-  .. warning:: Warnings are formatted in the same way as notes. In the same way,
-     lines must be broken and indented under the warning tag.
+  .. warning::
+     Warnings are formatted in the same way as notes. In the same way, lines
+     must be broken and indented under the warning tag.
 
 
-.. warning:: Warnings are formatted in the same way as notes. In the same way,
-   lines must be broken and indented under the warning tag.
+.. warning::
+   Warnings are formatted in the same way as notes. In the same way, lines must
+   be broken and indented under the warning tag.
 
 
 ****************************
