@@ -27,12 +27,16 @@ you design, test, and run your course.
   might have difficulty distinguishing between components.
 
 * Do not use Flash, which is not supported on mobile platforms, to create course
-* content.
-
+  content.
 
 * Only use iFrames in course content where necessary, because iFrame content
   might not be responsive and cannot be optimized for viewing on a range of
   devices.
+
+* If you develop course components in HTML, including course announcements, make
+  sure you set relative rather than explicit sizes for objects such as images,
+  tables, text, and so on, so that they will scale appropriately when viewed on
+  displays of different sizes.
 
 * Learners might be viewing your course materials on screens as large as a
   high-resolution Mac Thunderbolt display, or as small as a 5 inch smartphone
