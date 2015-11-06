@@ -63,10 +63,9 @@ you design, test, and run your course.
   through too many "markers" with no real course content is not a good
   experience for mobile users.
 
-* If you create course components using XML, make sure your JavaScript and CSS
-  are compliant. You should verify that all components render correctly in the
-  edX Android and iPhone apps as well as directly in the LMS, because previewing
-  from Studio is not available for components created outside of Studio
+* Make sure your JavaScript and CSS are compliant. You should verify that all
+  components render correctly in the edX Android and iPhone apps as well as
+  directly in the LMS.
 
 
 .. _Testing Your Course For Mobile Devices:
