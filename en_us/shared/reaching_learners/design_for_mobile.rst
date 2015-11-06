@@ -63,11 +63,10 @@ you design, test, and run your course.
   through too many "markers" with no real course content is not a good
   experience for mobile users.
 
-* If you make JavaScript or CSS changes to course components using XML, be
-  aware that components might not render in the same way on a mobile device as
-  they do in the desktop. EdX recommends that you create and edit components
-  in Studio rather than editing them in XML, to ensure that components render
-  reliably on both mobile and desktop.
+* If you create course components using XML, make sure your JavaScript and CSS
+  are compliant. You should verify that all components render correctly in the
+  edX Android and iPhone apps as well as directly in the LMS, because previewing
+  from Studio is not available for components created outside of Studio
 
 
 .. _Testing Your Course For Mobile Devices:
